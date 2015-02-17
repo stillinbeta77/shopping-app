@@ -31,8 +31,7 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
-ol, ul {
-	list-style: none;
+
 }
 blockquote, q {
 	quotes: none;
@@ -118,9 +117,9 @@ body {
 	text-align: left;
 }
 
-.add-btn {
+#add-btn {
 	float: left;
-	margin-left: 20px;
+	margin-left: 15px;
 }
 
 .clear {
@@ -149,9 +148,20 @@ body {
 	text-decoration: line-through;
 }
 
-li:after {
-	content: url('../images/checkmark.png');
-	float: right;
+.remove {
+    border: 2px solid #c2c2c2;
+    padding: 1px 5px;
+    top: -20px;
+    background-color: #605F61;
+    left: 198px;
+    border-radius: 20px;
+}
+
+.remove a {
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
 }
 
 .credits {
