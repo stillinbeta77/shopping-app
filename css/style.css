@@ -145,6 +145,10 @@ body {
 
 }
 
+.list-items .off {
+	text-decoration: line-through;
+}
+
 li:after {
 	content: url('../images/checkmark.png');
 	float: right;
