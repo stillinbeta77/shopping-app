@@ -1,15 +1,12 @@
 $(document).ready(function() {
-	$(".add-btn").click(function (e) {
-	    e.preventDefault()
-	    var add = $('#listInput').val();
-        $("ol.list-items").append('<li class="on">' + add + '</li>');
-
+    $('.add-btn').click(function (e) {
+    	e.preventDefault()
+        var item = $('#listInput')
+        $('.list-items').append("<li>"+item.val()+"</li>");
+        $('.list-items li').addClass("box");
     });
-
-
-	$(document).on('click', '.on', function () {
-	$(".on").wrap("<strike>");
-	$(".on").fadeOut("slow");
-	});
-
+    $('.list-items').on('click', 'li', function() {
+    	$(this).wrap("<strike>");
+		$(this).fadeOut("slow");
+    });
 });

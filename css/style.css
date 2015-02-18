@@ -122,6 +122,7 @@ body {
 	margin: 15px 0 10px 5px;
 	background-color: transparent;
 	border: none;
+	cursor: pointer;
 }
 
 .clear {
@@ -145,12 +146,24 @@ body {
 	display: block;
 	line-height: 2rem;
 	border-bottom: 1px solid #c1c1c1;
-
+	font-size: .95rem;
+	font-family: 'Verdana', cursive;
+	font-weight: bold;
+	cursor: pointer;
 }
 
-.list-items .off {
-	text-decoration: line-through;
+li.box {
+	padding: 5px 0 5px 15px;
+	border: 1px dashed #000;
+	background-color: LightGray;
 }
+
+.box:before {
+    content: "×";
+    padding-right: 15px;
+}
+
+
 
 
 .credits {
