@@ -10,7 +10,6 @@ $(document).ready(function() {
 	$(document).on('click', '.on', function () {
 	$(".on").wrap("<strike>");
 	$(".on").fadeOut("slow");
-
 	});
 
 });
