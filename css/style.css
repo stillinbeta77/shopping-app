@@ -162,7 +162,7 @@ li.box {
     content: "×";
     padding: 5px;
     border: 1px solid red;
-    margin-right: 5px;
+    margin-right: 10px;
 }
 
 .credits {
