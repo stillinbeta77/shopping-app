@@ -160,11 +160,10 @@ li.box {
 
 .box:before {
     content: "×";
-    padding-right: 15px;
+    padding: 5px;
+    border: 1px solid red;
+    margin-right: 5px;
 }
-
-
-
 
 .credits {
 	margin-top: 10px;
